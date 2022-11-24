@@ -1,1 +1,1 @@
-web: gunicorn ezhealth_db.wsgi --log-file -
+web: gunicorn database.wsgi --log-file -
